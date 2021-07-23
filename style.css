@@ -1,0 +1,207 @@
+table {
+    font-size: 1.5em;
+    tab-size: 40px;
+    font-family: arial, sans-serif;
+    border: 4px;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 30px
+}
+
+th {
+    border: 1px solid #56568f;
+    text-align: center;
+    padding: 8px;
+    color: firebrick
+}
+
+td {
+    border: 1px solid #56568f;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+p {
+    font-size: 2em;
+    line-height: 1.7em
+}
+
+form {
+    font-size: 1.9em;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #336794;
+    border-radius: 15px;
+    color: white;
+    font-size: 30px;
+}
+
+.body-container {
+    background-color: #D1E5FA;
+    background-image: url(assets/image/background.png);
+    background-blend-mode: color-dodge;
+}
+
+.cards-container {
+    background-color: #FFFAEB;
+    width: 70%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+    padding: 100px;
+    margin-top: 150px;
+    border: solid 5px #4f85AD;
+    border-radius: 19px;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    justify-items: center
+}
+
+.cardlog {
+    background-color: #c9c9c9;
+    height: 800px;
+    width: 1100px;
+    border: solid 5px #8E85AD;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center
+}
+
+.mycard {
+    height: 700px;
+    width: 450px;
+    border: solid 5px #8E85AD;
+    border-radius: 8px;
+    padding: 15px;
+    padding-top: 30;
+    margin: 10px;
+    text-align: center
+}
+
+#card1 {
+    border-style: double;
+    overflow: hidden;
+}
+
+#card2 {
+    background-image: url(assets/image/card-2.png)
+}
+
+#card3 {
+    border-style: dashed;
+    background-image: url(assets/image/card-3.png)
+}
+
+#card6 {
+    border-style: solid;
+    background-image: url(assets/image/card-6.png)
+}
+
+#card7 {
+    border-style: groove;
+    background-image: url(assets/image/card-8.jpg)
+}
+
+.tag-ex {
+    margin: 6px;
+    border-collapse: collapse;
+    border: 3px solid green;
+    padding: 10px;
+    margin: 9px
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+.container {
+    padding: 16px;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.button1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+Button:hover {
+    opacity: .8;
+}
+
+.input {
+    width: 70%;
+    height: 80px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+.comment-butt {
+    height: 40px;
+    width: 160px;
+}
+
+.comment-container {
+    width: 900px;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 3px 10 px #111;
+}
+
+.comment-box {
+    padding: 30px;
+    height: 320px;
+    width: 100%;
+    background: #D1E5FA;
+    box-shadow: 0 5px 15px #111;
+    border-radius: 5px
+}

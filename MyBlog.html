@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<!-- اعدادات الصفحة -->
+
+<head>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <title> مشروع هندسة ويب </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- بداية النافبار-->
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark wow fadeInDown  " data-wow-duration="1s">
+        <div class="container-fluid">
+            <h2 class="navbar-brand" href="#"> مدونة تلخيصية للـ HTML </h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <a aria-current="page" href="MyBlog.html" class="btn btn-outline-info">الصفحة الرئيسية</a>
+
+            <a href="reg.html" class="btn btn-outline-warning"> للتسجيل </a>
+            <a href="login.html" class="btn btn-outline-warning"> تسجيل الدخول </a>
+
+
+            <a class="btn btn-outline-info" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">القائمين على الموقع</a>
+            <div id="id01" class="modal">
+
+                <form class="modal-content animate">
+                    <div class="imgcontainer">
+                        <li class="wow fadeInDown" data-wow-delay="0.2s" data-wow-duration="1s">Anas Al.Subhai ID: 3902990</li>
+                        <li class="wow fadeInDown" data-wow-delay="0.8s" data-wow-duration="1s">Mshari Al.Juhani ID: 3702867</li>
+                        <li class="wow fadeInDown" data-wow-delay="1.3s" data-wow-duration="1s">Khaled Al.Muqati ID: 3704093</li>
+                        <li class="wow fadeInDown" data-wow-delay="2s" data-wow-duration="1s"><b> From Taibah university</b></li>
+                    </div>
+                    <div class="container">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="button1">خروج</button>
+                    </div>
+                </form>
+            </div>
+
+            <script>
+                // Get the modal
+                var modal = document.getElementById('id01');
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            </script>
+
+
+            <a class="btn btn-outline-info" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                 المصادر
+                                </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://www.w3schools.com/html/default.asp" target="_blank">w3schools</a></li>
+                <li>
+                    <a class="dropdown-item" href="https://drive.google.com/drive/folders/1CBNXkJ9Q66AfXXGs1LsyMKg4ELKBkLiH?usp=sharing" target="_blank"> مقرر هندسة ويب</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <button class="btn btn-outline-success" type="submit">بحث</button>
+                <input class="form-control me-2" type="search" placeholder="للبحث" aria-label="Search">
+            </form>
+        </div>
+    </nav>
+    <!-- نهاية النافبار-->
+
+</head>
+
+
+<!-- البنر -->
+<header class="header wow fadeInDown main_header " data-wow-delay="0.8s">
+    <h2 class="wow fadeInDown  " data-wow-delay="1s" data-wow-duration="3s">مشروع هندسة الويب</h2>
+    <h1 dir="rtl" class="wow fadeInDown  " data-wow-delay="1s" data-wow-duration="3s"> مدونة شخصية : تلخيص للـHTML </h1>
+</header>
+
+<!-- جسم الصفحة -->
+
+<body class="body-container ">
+
+    <div class="cards-container  wow bounceInUp" data-wow-duration="1s">
+
+
+        <div id="card1" class="mycard wow fadeInRight " data-wow-delay="1s" data-wow-duration="2s">
+            <h1>فكرة المدونة:</h1>
+            <p>في هذا المدونة سيتم تدوين اغلب ماتعلمناه في مقرر هندسة الويب بالمجال العملي بلغة HTML ستتم كتابة الاكواد بشكل سليم وواضح و كتابة التعليقات ليتمكن الجميع من مراجعة الاكواد بأي وقت </p>
+            <img src="assets/image/CSS_HTML.png" , width="400" height="230" />
+        </div>
+
+
+        <div id="card2" class="mycard wow fadeInLeft " data-wow-delay="0.5s" data-wow-duration="2s">
+            <h5>.</h5>
+        </div>
+
+
+        <div id="card3" class="mycard wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="2s">
+            <h4>.</h4>
+        </div>
+
+
+        <div id="card4" class="mycard wow fadeInLeft" data-wow-delay="0.2s" data-wow-duration="2s">
+            <h1>اولًا: الوسوم الخاصة بالنصوص </h1>
+            <p> هنا سيتم استعراض وشرح الوسوم الخاصة بالنصوص مثل (h1 - p - strong)</p>
+            <a class="btn btn-warning" href="txt_page.html"> اضغط هنا للدخول الى الصفحة </a>
+        </div>
+
+        <div id="card5" class="mycard wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="2s">
+            <h1>ثانيًا:الوسائط المتعددة</h1>
+            <p> سيتم شرح و استعراض طريقة عرض الوسائط المتعددة مع امثلة و استخدام الدوال الخاصة مثل Autoplayوغيرها
+            </p>
+            <a class="btn btn-warning" href="MultiMedia.html"> اضغط هنا لدخول الصفحة </a>
+
+        </div>
+
+        <div id="card6" class="mycard wow fadeInLeft" data-wow-delay="0.2s" data-wow-duration="0.5s">
+            <h6>.</h6>
+        </div>
+
+        <div id="card7" class="mycard wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">
+            <h1>7</h1>
+        </div>
+
+        <div id="card8" class="mycard wow fadeInLeft" data-wow-delay="0.2s" data-wow-duration="2s">
+            <h1>ثالثًا الاستمارة </h1>
+            <p> سيتم شرح و استعراض الاستمارات وطريق انشاءها </p>
+            <a class="btn btn-warning" href="forms_page.html"> اضغط هنا لدخول الصفحة </a>
+        </div>
+
+    </div>
+
+</body>
+
+<br><br><br><br>
+<footer>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">للتواصل معنا : Taibahu.1g@gmail.com
+            </span>
+            <span class="navbar-brand mb-0 h1">                2021/4
+            </span>
+        </div>
+    </nav>
+</footer>
+
+</html>
